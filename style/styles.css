@@ -1,0 +1,848 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+*::-moz-selection {
+  background: rgba(255, 255, 255, 0.7);
+  color: rgb(0, 119, 255);
+}
+
+*::selection {
+  background: rgba(255, 255, 255, 0.7);
+  color: rgb(0, 119, 255);
+}
+
+body {
+  background-color: rgba(0, 119, 255, 0.05);
+}
+
+.navbar {
+  background-color: rgba(0, 119, 255, 0.4);
+}
+
+.img-piensos {
+  width: 50%;
+}
+
+.linkSocial {
+  text-decoration: none;
+}
+
+
+
+.menu-txt {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+  font-size: large;
+  transition: all .75s;
+  margin-left: 10px;
+}
+
+.menu-txt:hover {
+  color: rgba(0, 119, 255, 0.9);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+}
+
+.menu-txt:focus {
+  color: rgb(0, 119, 255);
+  text-shadow: none;
+  margin-left: 50px;
+}
+
+.menu-img {
+  width: 100px;
+  margin-right: 25px;
+  transition: all 1s;
+}
+
+.menu-img:hover {
+  transform: scale(1.15);
+}
+
+.menu-btt {
+  color: white;
+}
+
+.menu-btt:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.logotype {
+  margin-bottom: 1rem;
+}
+
+.inicio {
+  height: 500px;
+  background-image: url(../img/inicioimg.jpg);
+  margin-bottom: 50px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cvs {
+  font-family: "Baloo 2";
+  font-weight: 800;
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.76);
+  display: none;
+}
+
+
+.txt-inicio {
+  background-color: rgba(0, 119, 255, 0.3);
+  color: rgba(0, 0, 0, 0.7);
+  margin: 40px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: larger;
+  align-items: center;
+}
+
+.ima {
+  width: 40%;
+  float: left;
+}
+
+.tex {
+  width: 55%;
+  margin-left: 2.5%;
+  float: left;
+}
+
+.contacta {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: rgba(0, 119, 255, 0.3);
+  font-family: "Baloo 2";
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 2rem;
+}
+
+.personal ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.personal p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.icono {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1rem;
+}
+
+.personal a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: all .5s;
+}
+
+.personal li {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1rem;
+  text-align: center;
+  margin: 5px;
+}
+
+.personal a:hover {
+  color: rgb(0, 119, 255);
+  text-shadow: none;
+  transform: scale(1.5);
+}
+
+.social {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social:hover {
+  transition: all 0.5s;
+  color: rgb(0, 119, 255);
+}
+
+.social a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 5px;
+}
+
+.social a:hover {
+  transition: all 0.5s;
+  color: rgb(0, 119, 255);
+}
+
+.logotype {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  color: rgb(0, 119, 255);
+  margin-top: 6rem;
+  display: none;
+}
+
+.titulo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  color: rgb(0, 119, 255);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: none;
+}
+
+.mapa {
+  height: 450px;
+  margin-bottom: 2rem;
+}
+
+.contactaRedes {
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.iconoSocial {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.1);
+  float: left;
+  text-align: center;
+  padding-top: 7.5px;
+}
+
+.pers ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: .7rem;
+  margin-bottom: .5rem;
+}
+
+.pers i {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: .5rem;
+  margin-left: 1.5rem;
+}
+.pers li:hover i{
+  transition: all 1.5s;
+  transform: rotate3d(-1, 1, 0, 360deg) scale(1.3);
+}
+
+.redesContainer {
+  padding: 4rem 1rem;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 0.3125rem solid;
+  margin-bottom: 2rem;
+  border-radius: 0.3125rem;
+  transition: 1s;
+}
+
+.redesContainer:hover {
+  transform: scale(1.02);
+}
+
+.redesContainer:hover i {
+  transition: all 1.5s;
+  transform: rotateZ(360deg) scale(0.85);
+}
+
+.redesContainer p {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.redesContainer .socialText {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.horary {
+  padding: 2.75rem .1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 0.3125rem solid;
+  margin-bottom: 2rem;
+  border-radius: 0.3125rem;
+  transition: 1s;
+}
+
+.horary:hover {
+  transform: scale(1.02);
+}
+
+.horary:hover i {
+  transition: all 1.5s;
+  transform: rotateZ(360deg) scale(0.85);
+}
+
+.horary p {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.horary .socialText {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.iconSocial {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  font-size: 3rem;
+}
+
+.iconSocial::before {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.facebook .iconSocial::before {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.horario {
+  border-color: rgb(0, 119, 255);
+  -webkit-box-shadow: 0px 1px 0px 1px rgb(0, 119, 255);
+  -moz-box-shadow: 0px 1px 0px 1px rgb(0, 119, 255);
+  box-shadow: 0px 1px 0px 1px rgb(0, 119, 255);
+}
+
+.horario:hover {
+  background: rgba(0, 119, 255,0.1);
+  box-shadow: inset 0 0 5px rgb(0, 119, 255);
+}
+
+.horario .iconSocial {
+  color: rgb(0, 119, 255);
+  background: rgb(134, 190, 255);
+}
+
+.horario .socialText {
+  color: rgb(0, 119, 255);
+}
+
+.hor {
+  color: rgb(0, 119, 255);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.hor:hover {
+  color: #ad0000;
+}
+
+.phone {
+  border-color: #313131;
+  -webkit-box-shadow: 0px 1px 0px 1px #313131;
+  -moz-box-shadow: 0px 1px 0px 1px #313131;
+  box-shadow: 0px 1px 0px 1px #313131;
+}
+
+.phone:hover {
+  background: rgba(49, 49, 49, 0.05);
+  box-shadow: inset 0 0 5px #313131;
+}
+
+.phone .iconSocial {
+  color: #313131;
+  background: #d4d4d4;
+}
+
+.phone .socialText {
+  color: #313131;
+}
+
+.ph {
+  color: #313131;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.ph:hover {
+  color: #313131;
+}
+
+.whatsapp {
+  border-color: #12ca4c;
+  -webkit-box-shadow: 0px 1px 0px 1px #12ca4c;
+  -moz-box-shadow: 0px 1px 0px 1px #12ca4c;
+  box-shadow: 0px 1px 0px 1px #12ca4c;
+}
+
+.whatsapp:hover {
+  background: rgba(18, 202, 76, 0.05);
+  box-shadow: inset 0 0 5px #12ca4c;
+}
+
+.whatsapp .iconSocial {
+  color: #12ca4c;
+  background: #c2f3d3;
+}
+
+.whatsapp .socialText {
+  color: #12ca4c;
+}
+
+.ws {
+  color: #12ca4c;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.ws:hover {
+  color: #12ca4c;
+}
+
+.instagram {
+  border-color: #b30d6e;
+  -webkit-box-shadow: 0px 1px 0px 1px #b30d6e;
+  -moz-box-shadow: 0px 1px 0px 1px #b30d6e;
+  box-shadow: 0px 1px 0px 1px #b30d6e;
+}
+
+.instagram:hover {
+  background: rgba(179, 13, 110, 0.05);
+  box-shadow: inset 0 0 5px #b30d6e;
+}
+
+.instagram .iconSocial {
+  color: #b30d6e;
+  background: #ddbdd0;
+}
+
+.instagram .socialText {
+  color: #b30d6e;
+}
+
+.insta {
+  text-decoration: none;
+  color: #b30d6e;
+  font-size: 1.2rem;
+}
+
+.insta:hover {
+  color: #b30d6e;
+}
+
+.facebook {
+  border-color: rgb(24, 111, 175);
+  -webkit-box-shadow: 0px 1px 0px 1px rgb(24, 111, 175);
+  -moz-box-shadow: 0px 1px 0px 1px rgb(24, 111, 175);
+  box-shadow: 0px 1px 0px 1px rgb(24, 111, 175);
+}
+
+.facebook:hover {
+  background: rgba(24, 112, 175, 0.05);
+  box-shadow: inset 0 0 5px rgb(24, 111, 175);
+}
+
+.facebook .iconSocial {
+  color: rgb(24, 111, 175);
+  background: rgb(178, 205, 224);
+}
+
+.facebook .socialText {
+  color: rgb(24, 111, 175);
+}
+
+.fb {
+  text-decoration: none;
+  color: rgb(24, 111, 175);
+  font-size: 1.2rem;
+}
+
+.fb:hover {
+  color: rgb(24, 111, 175);
+}
+
+hr {
+  background-color: rgb(0, 119, 255);
+  width: 75%;
+  margin-left: 12.5%;
+}
+.hrPers{
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 60%;
+  margin-left: 20%;
+}
+
+.piensos {
+  margin-top: 6rem;
+}
+
+.citai {
+  width: 38.25%;
+  margin-left: 7.5%;
+  margin-right: 3.75%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 119, 255, 0.3);
+  padding: 10px;
+  float: left;
+}
+
+.citad {
+  width: 38.25%;
+  margin-right: 7.5%;
+  margin-left: 3.75%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 119, 255, 0.3);
+  padding: 10px;
+  float: left;
+}
+
+.citaImg {
+  height: auto;
+  width: 100%;
+  transition: all .75s;
+}
+
+.citaImg:hover {
+  transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.i {
+  overflow: hidden;
+}
+
+.citaTitle {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 10px;
+}
+
+.planesText {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: x-large;
+}
+
+.citaText {
+  color: white;
+  font-size: large;
+}
+
+.citaText2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: large;
+}
+
+.citaLink {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.desplegable {
+  display: none;
+}
+
+.separador {
+  height: 1px;
+  float: left;
+  width: 100%;
+}
+
+.plani {
+  width: 26.6%;
+  margin-left: 5%;
+  margin-right: 2.5%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 119, 255, 0.3);
+  padding: 10px;
+  float: left;
+}
+
+.planm {
+  width: 26.6%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 119, 255, 0.3);
+  padding: 10px;
+  float: left;
+}
+
+.pland {
+  width: 26.6%;
+  margin-left: 2.5%;
+  margin-right: 5%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 119, 255, 0.3);
+  padding: 10px;
+  float: left;
+}
+
+.planLink {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.envio {
+  background-color: rgba(0, 119, 255, 0.3);
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 2rem;
+  transition: all 1s;
+}
+
+.envio:hover {
+  background-color: rgba(0, 119, 255, 0.6);
+  color: white;
+  transform: scale(1.1);
+}
+
+.form-group {
+  margin-top: 1rem;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: transparent;
+}
+
+.formulario {
+  align-items: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .piensos h3 {
+    font-size: 1.5rem;
+  }
+
+  .planesText {
+    font-size: medium;
+  }
+
+  .citaText {
+    font-size: medium;
+  }
+
+  .citaText2 {
+    font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+
+  .citai {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.3);
+    padding: 10px;
+    float: left;
+  }
+
+  .citad {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.3);
+    padding: 10px;
+    float: left;
+  }
+
+  .plani {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.3);
+    padding: 10px;
+    float: left;
+  }
+
+  .planm {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.3);
+    padding: 10px;
+    float: left;
+  }
+
+  .pland {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.3);
+    padding: 10px;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .redesContainer p {
+    font-size: 0.9rem;
+  }
+
+  .ima {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .tex {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .inicio h1 {
+    font-size: 2rem;
+  }
+
+  .redesContainer:hover {
+    transform: none;
+  }
+
+  .img-piensos {
+    width: 80%;
+  }
+
+  .citai {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.3);
+    padding: 10px;
+    float: left;
+  }
+
+  .citad {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.3);
+    padding: 10px;
+    float: left;
+  }
+
+  .plani {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.3);
+    padding: 10px;
+    float: left;
+  }
+
+  .planm {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.3);
+    padding: 10px;
+    float: left;
+  }
+
+  .pland {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.3);
+    padding: 10px;
+    float: left;
+  }
+
+  .iconoSocial {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.1);
+    float: left;
+    text-align: center;
+    padding-top: 7.5px;
+  }
+
+  .pers ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: .7rem;
+  }
+
+  .pers li i {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .personal li {
+    font-size: .7rem;
+  }
+}
+
+#error{
+  color: red;
+  font-size:1.5rem;
+  align-items: center;
+  text-align: center;
+}

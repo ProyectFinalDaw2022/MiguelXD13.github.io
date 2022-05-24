@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<head>
+    <html lang="es">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinica San Fernando</title>
+    <link rel="icon" href="img/logo.png" />
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="style/styles.css" rel="stylesheet">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+</head>
+
+<body class="container-fluid">
+    <div class="row fixed-top">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg">
+                <a href="inicio.html"><img src="img/logo.png" class="menu-img"></a>
+                <button class="navbar-toggler menu-btt m-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-bars"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link menu-txt p-3" href="inicio.html">Inicio</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle menu-txt p-3" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="true">
+                                Planes Salud
+                            </a>
+                            <ul class="dropdown-menu"
+                                style="background-color: rgba(0, 119, 255, 0.4); margin-top: 7.5px;"
+                                aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item menu-txt p-3" href="planesSaludPerro.html">Perros</a></li>
+                                <li><a class="dropdown-item menu-txt p-3" href="planesSaludGato.html">Gatos</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item active">
+                            <a class="nav-link menu-txt p-3" href="piensos.html">Piensos Bittal</a>
+                        </li>
+                        <li class=" nav-item active">
+                            <a class="nav-link menu-txt p-3" href="blogs.html">Blog</a>
+                        </li>
+                        <li class=" nav-item active">
+                            <a class="nav-link menu-txt p-3" href="formulario.html">Contacta</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-12 text-center">
+            <h3 class="title">LA VOZ DEL VETERINARIO</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="citai">
+        <div class="i"><img src="img/gato1.jpg" class="citaImg"></div>
+        <h1 class="citaTitle text-center">Lipidosis Hepática Felina</h1>
+        <p class="citaText">La lipidosis hepática felina es una de las enfermedades hépaticas más frecuentes en
+            gatos. Se produce por una acumulación excesiva de triglicéridos en el interior de los hepatocitos y
+            desemboca en una disfunción del hígado.</p>
+        <p class="citaText">
+            Generalmente se produce cuando el gato deja de comer por alguna razón.
+        </p>
+        <div class="desplegable" id="1">
+            <p class="citaText2">Puede ser:</p>
+            <ul>
+                <li class="citaText">Primaria: no existe una causa subyacente. Se produce solo en un 5% de los casos.
+                </li>
+                <li class="citaText">Secundaria: ocurre en más de un 80% de los pacientes. En estos casos existe
+                    previamente algún
+                    trastorno (estrés asociado a cambios de rutina, cambios de dieta…) o enfermedad primaria como causa
+                    subyacente de la anorexia (diabetes, pancreatitis, enfermedad inflamatoria intestinal, enfermedad
+                    renal, enfermedad cardiaca, hipertiroidismo, obstrucción intestinal crónica, fármacos…)</li>
+            </ul>
+            <p class="citaText2">Síntomas:</p>
+            <ul>
+                <li class="citaText">Hiporrexia o anorexia (3-7días)</li>
+                <li class="citaText">Pérdida de peso progresiva (importante sobre todo en animales que anteriormente
+                    presentaban sobrepeso)</li>
+                <li class="citaText">Pérdida de masa muscular</li>
+                <li class="citaText">Hepatomegalia no dolorosa</li>
+                <li class="citaText">Depresión, debilidad, postración y ventroflexión del cuello y/o cabeza</li>
+                <li class="citaText">Ictericia</li>
+                <li class="citaText">Nauseas, vómitos y diarreas</li>
+                <li class="citaText">Ascitis secundaria a otras patologías como PIF, pancreatitis y neoplasias.</li>
+                <li class="citaText">Trastornos de la coagulación en el 50% de los casos.</li>
+            </ul>
+            <p class="citaText">No tienen por qué presentar todos, de hecho, muchas veces los pacientes pueden presentar
+                sólo anorexia y pérdida de peso.</p>
+        </div>
+        <p class="citaLink" id="L1">Ver más</p>
+        <p class="citaLink" id="L11">Ver menos</p>
+    </div>
+
+
+    <div class="citad">
+        <div class="i"><img src="img/perro1.jpg" class="citaImg"></div>
+        <h1 class="citaTitle text-center">Complicaciones Post-quirúrgicas de una cirugía gastrointestinal</h1>
+        <p class="citaText">Cualquier cirugía relacionada con el sistema gastrointestinal va a requerir un seguimiento
+            de cerca del paciente para controlar las posibles complicaciones que pueden aparecer tras la finalización de
+            la cirugía, por ello es importante seguir los cuidados que os vamos a recomendar en este artículo.</p>
+        <div class="desplegable" id="2">
+            <p class="citaText2">Complicaciones leves-moderadas:</p>
+            <ul>
+                <li class="citaText">Hipotermia: Tras la cirugía es una de las complicaciones más frecuentes. Es
+                    importante mantener al paciente monitorizado y recuperar la temperatura fisiológica y así disminuir
+                    el riesgo de posibles infecciones quirúrgicas.
+                </li>
+                <li class="citaText">Fiebre: En las primeras 12 horas, las elevaciones de la temperatura que ocurren
+                    transitoriamente tras la cirugía están relacionadas con la reabsorción de materias extrañas (sutura,
+                    sangre), anormalidades metabólicas o endocrinas, una prolongada hipotensión sin tratamiento y es por
+                    ello que es importante mantener al paciente hospitalizado.</li>
+            </ul>
+            <p class="citaText">Todo aumento de la temperatura que dure más de 2 días debe considerarse importante y se
+                debe investigar su causa realizando las pruebas complementarías pertinentes.</p>
+            <p class="citaText2">Complicaciones moderadas:</p>
+            <ul>
+                <li class="citaText">Hipotensión: Entendemos por hipotensión una baja de la tensión arterial. Se produce
+                    cuando los latidos del corazón, encargados de bombear la sangre al resto del cuerpo, tienen un ritmo
+                    más lento de lo habitual, lo que implica que el corazón, el cerebro y otros órganos no reciben
+                    suficiente sangre. Es una condición sumamente importante que se debe monitorizar en la
+                    hospitalización y poder tratarla.</li>
+                <li class="citaText">Infección de la herida quirúrgica: La infección de la herida quirúrgica se hace
+                    evidente entre el 5° y 10° día tras la intervención y se localiza en la piel y el tejido subcutáneo,
+                    pero generalmente su proceso se inicia durante los primeros días si ocurre uno o más de los
+                    siguientes incidentes: <br>
+                    Si la reacción inflamatoria local es excesiva.
+                    <br>
+                    Si la herida quirúrgica se contamina con un germen.
+                    <br>
+                    Si se asocian a infecciones cavitarias con o sin fístulas o dehiscencias.
+                    <br>
+                    <p class="citaText">Por ello toma siempre precauciones, evita que tu perro muerda o lama o se rasque
+                        sus suturas, asegúrate de que la herida y las suturas estén limpias, mantén la herida y las
+                        suturas secas, revisa las suturas todos los días, evita cualquier exceso de actividad y mantén a
+                        tu perro alejado de otros perros.</p>
+                </li>
+                <li class="citaText">Íleo paralítico: Se define como la interrupción aguda del tránsito intestinal.
+                    Después de la cirugía, se produce un estado transitorio de obstrucción intestinal por fallo en la
+                    actividad propulsiva normal del tubo digestivo. En la mayoría de los casos suele resolverse
+                    espontáneamente en pocos días, pero en algunas circunstancias puede prolongarse provocando un cuadro
+                    clínico peligroso que compromete a veces la vida del paciente.
+
+                    Se relaciona con la manipulación visceral propia de la cirugía y posteriormente por la infiltración
+                    de células inflamatorias, que conduce a la inhibición de la motilidad.
+
+                    Los signos clínicos más comunes de obstrucción son: vómitos persistentes, distensión abdominal,
+                    ausencia de expulsión de gases y/o defecación.</li>
+            </ul>
+            <p class="citaText2">Complicaciones severas:</p>
+            <ul>
+                <li class="citaText">Dehiscencia de los puntos de sutura: Es una complicación en el que la herida
+                    quirúrgica se separa o se abre repentinamente. Conlleva a la filtración de contenido intestinal a la
+                    cavidad abdominal y en consecuencia una peritonitis séptica.
+
+                    La tasa de mortalidad asociada a este suceso, abarca del 30 al 50% aproximadamente, y aumenta en las
+                    cirugías más caudales, por la mayor carga bacteriana que soporta de forma natural el intestino.</li>
+                <li class="citaText">Peritonitis: El peritoneo es el tejido que recubre la parte interna del abdomen y
+                    sirve así de punto de apoyo para la mayoría de los órganos abdominales, que no son precisamente poco
+                    importantes. Cuando hablamos de peritonitis nos estamos refiriendo a una inflamación de esta
+                    membrana debido a la presencia de una fuga del sistema gastrointestinal en este caso.
+
+                    Los indicios de que el paciente cursa con peritonitis son inespecíficos como fiebre, apatía, vómitos
+                    y dolor abdominal.</li>
+                <li class="citaText">Abscesos intraperitoneales: Son resultado de una contaminación local del peritoneo
+                    o de una infección peritoneal generalizada que ha logrado localizarse. La causa de esta infección
+                    procede de un proceso inflamatorio previamente instalado en otro sitio del abdomen o de la
+                    contaminación peritoneal por una fuga de la sutura.</li>
+                <li class="citaText">Hemorragia postoperatoria: Las hemorragias tras una cirugía abdominal suceden a
+                    consecuencia de un defecto de los mecanismos fisiológicos del organismo sobre los vasos o por el
+                    fallo de una ligadura. Existe otro tipo de hemorragia en el que el sangrado procede de pequeños
+                    vasos superficiales o de la musculatura, o provocada por un trastorno de la coagulación.
+
+                    Las pérdidas de sangre las identificaremos por la aparición de palidez de mucosas, un ritmo cardiaco
+                    acelerado, pulso débil, alteraciones en la respiración y, en casos extremos se produce un shock
+                    hipovolémico.</li>
+                <li class="citaText">Pancreatitis: Nos referimos a pancreatitis cuando se produce una inflamación del
+                    páncreas. Cuando sucede tras una cirugía abdominal es por la manipulación de los órganos próximos,
+                    ya que el páncreas se encuentra muy próximo al duodeno, y por extensión de la inflamación y el daño
+                    que se ha producido en la zona.</li>
+            </ul>
+            <p class="citaText">Los signos que nos encontraremos serán anorexia, vómitos, fiebre, dolor abdominal
+                marcado y heces pastosas, amarillentas, grasas e incluso a veces sanguinolentas.</p>
+        </div>
+        <p class="citaLink" id="L2">Ver más</p>
+        <p class="citaLink" id="L22">Ver menos</p>
+    </div>
+
+    <div class="separador"></div>
+
+
+    <div class="citai">
+        <div class="i"><img src="img/perro2.jpg" class="citaImg"></div>
+        <h1 class="citaTitle text-center">Han mordido a mi perro ¿Qué debo hacer?</h1>
+        <p class="citaText">Una de las urgencias más frecuentes en la clínica veterinaria es la mordedura por otro
+            perro. Es una situación complicada en la que cuesta mantener la calma, sobre todo en casos en los que vemos
+            mucha sangre o cuando se trata de heridas muy escandalosas, por eso es importante estar preparados ante esta
+            situación porque es algo que le puede ocurrir en cualquier momento a nuestro perro.</p>
+        <div class="desplegable" id="3">
+            <p class="citaText2">Cómo actuar:</p>
+            <p class="citaText">Lo primero que hay que hacer es tratar de calmar la situación y si es posible, separar a
+                los perros, con cuidado de no ser nosotros mismos mordidos y de que al tirar, no compliquemos la
+                situación provocando un desgarro de la herida.</p>
+            <p class="citaText">Una vez separados, es importante realizar una serie de preguntas y tratar de conocer el
+                estado sanitario del otro perro: principalmente si está vacunado de la rabia, ya que esta es una
+                enfermedad zoonótica y de declaración obligatoria por lo que debemos estar seguros de que el otro animal
+                está libre de dicha enfermedad. Si no podemos saberlo, al menos fijarnos en el aspecto físico del perro.
+                Es en este momento cuando debemos aprovechar y preguntar al otro propietario sobre una serie de datos:
+                seguro del perro y certificado PPP en caso de que este sea de una raza potencialmente peligrosa; así
+                como tomar los datos del propietario para que después sea este quien se haga cargo de los gastos
+                económicos derivados de la visita al veterinario.</p>
+            <p class="citaText2">Tratamiento médico:</p>
+            <p class="citaText">Debido a la gran cantidad de bacterias que habitan en la cavidad oral de los perros, el
+                tratamiento médico consiste principalmente en antibioterapia de amplio espectro, aunque en función de la
+                gravedad se podrán usar varios antibióticos combinados para garantizar que se cubran tanto las bacterias
+                aerobias como anaerobias. La antibioterapia generalmente suele combinarse con antiinflamatorios para
+                reducir la inflamación y el dolor asociados a la mordedura.</p>
+            <p class="citaText">El veterinario será el encargado de pautar cómo realizar las curas en casa así como de
+                organizar las siguientes visitas para valorar la evolución de las heridas y la posterior retirada de los
+                puntos, grapas o drenaje.</p>
+        </div>
+        <p class="citaLink" id="L3">Ver más</p>
+        <p class="citaLink" id="L33">Ver menos</p>
+    </div>
+
+
+    <div class="citad">
+        <div class="i"><img src="img/perro3.jpg" class="citaImg"></div>
+        <h1 class="citaTitle text-center">Intoxicación por chocolate (Teobromina)</h1>
+        <p class="citaText">El chocolate contiene un compuesto llamado teobromina que es el que causa toxicidad en los
+            perros y gatos y este forma parte de un grupo llamado metilxantinas de las que forman parte también la
+            teofilina y la cafeína contenidas en productos como el té, café, refrescos de cola o pastillas para
+            adelgazar.</p>
+        <p class="citaText">
+            Una intoxicación por chocolate puede llegar a causar graves problemas en tu mascota.
+        </p>
+        <div class="desplegable" id="4">
+            <p class="citaText2">Forma de actuación de las metilxantinas:</p>
+            <ul>
+                <li class="citaText">Actúan como antagonistas de los receptores de adenosina, lo que quiere decir que la
+                    adenosina no se une a sus receptores que se encuentran en casi todos los tejidos del cuerpo y no
+                    realiza su función como la regulación de la secreción de neurotransmisores, y no se generan
+                    respuestas fisiopatológicas como vasodilatación, dolor o inflamación.
+                </li>
+                <li class="citaText">Inhiben la fosfodiesterasa que es una enzima que se encarga de inactivar proteínas,
+                    en concreto el AMP cíclico, por lo que este se acumula dentro de las células musculares lo que hace
+                    que aumente la capacidad de contracción de estas.</li>
+                <li class="citaText">No permite que el calcio intracelular del músculo estriado se metabolice y por
+                    tanto se elimine, lo que provoca una contracción muscular continua.</li>
+                <li class="citaText">Relaja la musculatura lisa que son las que forman los vasos y los órganos.</li>
+                <li class="citaText">Estimula el sistema nervioso central.</li>
+                <li class="citaText">Aumentan la concentración de catecolaminas en sangre como la adrenalina,
+                    noradrenalina y dopamina.</li>
+                <li class="citaText">Aumenta la diuresis o producción de orina.</li>
+                <li class="citaText">Aumenta la secreción de ácido gástrico lo que provoca la irritación de la mucosa de
+                    este.</li>
+            </ul>
+            <p class="citaText">La dosis tóxica de teobromina en perros es de 100-200 mg por kg de peso en el perro y en
+                el gato 80-150 mg por kg.</p>
+            <p class="citaText2">Tratamiento:</p>
+            <ul>
+                <li class="citaText">Estabilizar administrando oxigeno en el caso de ser necesario y establecer una vía
+                    intravenosa para administrar fluidos.</li>
+                <li class="citaText">Descontaminación gastrointestinal que consiste en el vaciado del estómago y
+                    seguidamente administrar fármacos para eliminar el tóxico como puede ser inducir el vómito o lavado
+                    gástrico. Después de esto podemos administrar carbón activado para potenciar la eliminación del
+                    tóxico.</li>
+                <li class="citaText">Controlar las crisis convulsivas administrando fármacos como el diazepam para
+                    controlar las crisis en el momento en el que ocurren.</li>
+                <li class="citaText">Controlar arritmias con electrocardiograma.</li>
+                <li class="citaText">Tratamiento de soporte con fluidoterapia, antieméticos, protectores gástricos,
+                    analgésicos en función del grado de dolor.</li>
+            </ul>
+        </div>
+        <p class="citaLink" id="L4">Ver más</p>
+        <p class="citaLink" id="L44">Ver menos</p>
+    </div>
+    <div style="width: 100%; float: left;">
+        <div class="row contacta">
+            <div class="personal col-12 text-center mt-2">
+                <ul>
+                    <li>&copy; 2022 | CLÍNICA VETERINARIA SAN FERNANDO | Página desarrollada por Víctor Castrillo y Miguel
+                        Guerra
+                        | Proyecto final de grado</li>
+                </ul>
+                <hr class="hrPers">
+                <ul>
+                    <li>Clínica veterinaria Madrid, Pl. Ondarreta, S/N, 28830 San Fernando de Henares, Madrid | <a
+                            href="tel:+916695625">916695625</a></li>
+                </ul>
+            </div>
+            <div class="pers">
+                <div>
+                    <ul>
+                        <li><a href="https://www.instagram.com/clinicaveterinariasanfernando/?hl=es"><i
+                                    class="fab fa-instagram iconoSocial"></i></a></li>
+                        <li><a href="https://www.facebook.com/clinicaveterinariasanfernando/?epa=SEARCH_BOX"><i
+                                    class="iconoSocial fab fa-facebook-f"></i></a></li>
+                        <li><a href="tel:+601262476"><i class="fab fa-whatsapp iconoSocial"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
