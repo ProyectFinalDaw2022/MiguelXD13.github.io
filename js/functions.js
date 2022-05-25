@@ -86,6 +86,7 @@ function validarDatos() {
     }
     if (apellido.length < 3) {
         document.getElementById("error").innerHTML = "EL CAMPO' APELLIDO' DEBE TENER AL MENOS 3 CARACTERES";
+        document.getElementById("apellido").focus();
         $("#charge").css('display', "none");
         $("#error").show(1000);
         return;
