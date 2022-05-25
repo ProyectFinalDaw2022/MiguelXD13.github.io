@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 * {
   padding: 0px;
   margin: 0px;
@@ -76,7 +77,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.mapShadow{
+.mapShadow {
   box-shadow: 0px 0px 40px 5px rgba(0, 119, 255, 0.3);
   -webkit-box-shadow: 0px 0px 40px 5px rgba(0, 119, 255, 0.3);
   -moz-box-shadow: 0px 0px 40px 5px rgba(0, 119, 255, 0.3);
@@ -263,7 +264,8 @@ body {
   padding-top: .5rem;
   margin-left: 1.5rem;
 }
-.pers li:hover i{
+
+.pers li:hover i {
   transition: all 1.5s;
   transform: rotate3d(-1, 1, 0, 360deg) scale(1.3);
 }
@@ -360,7 +362,7 @@ body {
 }
 
 .horario:hover {
-  background: rgba(0, 119, 255,0.1);
+  background: rgba(0, 119, 255, 0.1);
   box-shadow: inset 0 0 5px rgb(0, 119, 255);
 }
 
@@ -512,7 +514,8 @@ hr {
   width: 75%;
   margin-left: 12.5%;
 }
-.hrPers{
+
+.hrPers {
   background-color: rgba(0, 0, 0, 0.9);
   width: 60%;
   margin-left: 20%;
@@ -655,6 +658,24 @@ hr {
 .formulario {
   align-items: center;
 }
+.grande{
+  height: 100px;
+}
+
+.error {
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.2), red, rgba(255, 0, 0, 0.2));
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+.fast-spin {
+  -webkit-animation: fa-spin .75s infinite linear;
+  animation: fa-spin .75s infinite linear;
+}
 
 @media only screen and (max-width: 850px) {
   .piensos h3 {
@@ -671,6 +692,9 @@ hr {
 
   .citaText2 {
     font-size: medium;
+  }
+  .error {
+    font-size: .6rem;
   }
 }
 
@@ -845,11 +869,9 @@ hr {
   .personal li {
     font-size: .7rem;
   }
-}
 
-#error{
-  color: red;
-  font-size:1.5rem;
-  align-items: center;
-  text-align: center;
+  .txt-inicio {
+    width: 100%;
+    margin-left: 0%;
+  }
 }
