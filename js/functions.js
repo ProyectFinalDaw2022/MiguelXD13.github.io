@@ -87,26 +87,6 @@ $(document).ready(function () {
     
   }
 
-//   function sendData(path, parameters, method='post') {
-
-//     const form = document.createElement('form');
-//     form.method = method;
-//     form.action = path;
-//     document.body.appendChild(form);
-  
-//     for (const key in parameters) {
-//         const formField = document.createElement('input');
-//         formField.type = 'hidden';
-//         formField.name = key;
-//         formField.value = parameters[key];
-  
-//         form.appendChild(formField);
-//     }
-//     form.submit();
-//   }
-  
-//   sendData('/myPath/', {query: 'hello world', num: '1'});
-
 function enviarDatos(nombre,apellido,telefono,email,mensaje){
     const data = new FormData();
     data.append('nombre', nombre);
@@ -114,7 +94,7 @@ function enviarDatos(nombre,apellido,telefono,email,mensaje){
     data.append('telefono', telefono);
     data.append('email', email);
     data.append('mensaje', mensaje);
-    fetch('http://127.0.0.1:8000/veterinaria/guardarPeticion/', {
+    fetch('https://veterinariasanfernandoapi.herokuapp.com/veterinaria/guardarPeticion/', {
        method: 'POST',
        body: data
     })
