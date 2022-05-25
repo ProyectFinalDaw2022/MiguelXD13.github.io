@@ -76,6 +76,13 @@ body {
   margin-bottom: 1rem;
 }
 
+.mapShadow{
+  box-shadow: 0px 0px 40px 5px rgba(0, 119, 255, 0.3);
+  -webkit-box-shadow: 0px 0px 40px 5px rgba(0, 119, 255, 0.3);
+  -moz-box-shadow: 0px 0px 40px 5px rgba(0, 119, 255, 0.3);
+  border-radius: 10px;
+}
+
 .inicio {
   height: 500px;
   background-image: url(../img/inicioimg.jpg);
