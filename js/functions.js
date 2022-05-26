@@ -1,6 +1,7 @@
 $(document).ready(
     function () {
         $("#error").hide();
+        $("#ok").hide();
         $('.title').fadeIn(1500);
         $('.titulo').fadeIn(1000);
         $('.cvs').fadeIn(3000);
@@ -156,9 +157,9 @@ function enviarDatos(nombre,apellido,telefono,email,mensaje){
 
         })
         .then(function (texto) {
-            document.getElementById("error").innerHTML = "TU MENSAJE HA SIDO ENVIADO"
+            document.getElementById("ok").innerHTML = "TU MENSAJE HA SIDO ENVIADO"
             $("#charge").css('display', "none");
-            $("#error").show(1000);
+            $("#ok").show(1000);
         })
         .catch(function (err) {
             document.getElementById("error").innerHTML = "HA HABIDO UN ERROR EN EL SERVIDOR"

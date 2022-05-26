@@ -381,10 +381,6 @@ body {
   text-decoration: none;
 }
 
-.hor:hover {
-  color: #ad0000;
-}
-
 .phone {
   border-color: #313131;
   -webkit-box-shadow: 0px 1px 0px 1px #313131;
@@ -672,6 +668,16 @@ hr {
   border-radius: 5px;
   padding: 5px;
 }
+.ok {
+  background: linear-gradient(90deg, rgba(3, 184, 3, 0.3), rgb(3, 184, 3), rgba(3, 184, 3, 0.3));
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
 .fast-spin {
   -webkit-animation: fa-spin .75s infinite linear;
   animation: fa-spin .75s infinite linear;
@@ -694,6 +700,9 @@ hr {
     font-size: medium;
   }
   .error {
+    font-size: .6rem;
+  }
+  .ok{
     font-size: .6rem;
   }
 }
