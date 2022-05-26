@@ -32,8 +32,6 @@ body {
   text-decoration: none;
 }
 
-
-
 .menu-txt {
   color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
@@ -521,6 +519,68 @@ hr {
   margin-top: 6rem;
 }
 
+.imagePiensos{
+  width: 40%;
+}
+
+.pi {
+  padding: 2.75rem .1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 0.3125rem solid;
+  margin-bottom: 2rem;
+  border-radius: 0.3125rem;
+  transition: 1s;
+}
+
+.pi:hover {
+  transform: scale(1.02);
+}
+
+.pi:hover img {
+  transition: all 1.5s;
+  transform: scale(1.2);
+}
+
+.pi p {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.pi .socialText {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.pien {
+  border-color: rgb(0, 119, 255);
+  -webkit-box-shadow: 0px 1px 0px 1px rgb(0, 119, 255);
+  -moz-box-shadow: 0px 1px 0px 1px rgb(0, 119, 255);
+  box-shadow: 0px 1px 0px 1px rgb(0, 119, 255);
+  padding: 3rem;
+}
+
+.pien:hover {
+  background: rgba(0, 119, 255, 0.1);
+  box-shadow: inset 0 0 5px rgb(0, 119, 255);
+}
+
+.pien .iconSocial {
+  color: rgb(0, 119, 255);
+  background: rgb(134, 190, 255);
+}
+
+.pien .socialText {
+  color: rgb(0, 119, 255);
+}
+
+.p {
+  color: rgb(0, 119, 255);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
 .citai {
   width: 38.25%;
   margin-left: 7.5%;
@@ -654,7 +714,8 @@ hr {
 .formulario {
   align-items: center;
 }
-.grande{
+
+.grande {
   height: 100px;
 }
 
@@ -668,6 +729,7 @@ hr {
   border-radius: 5px;
   padding: 5px;
 }
+
 .ok {
   background: linear-gradient(90deg, rgba(3, 184, 3, 0.3), rgb(3, 184, 3), rgba(3, 184, 3, 0.3));
   color: white;
@@ -678,12 +740,14 @@ hr {
   border-radius: 5px;
   padding: 5px;
 }
+
 .fast-spin {
   -webkit-animation: fa-spin .75s infinite linear;
   animation: fa-spin .75s infinite linear;
 }
 
 @media only screen and (max-width: 850px) {
+
   .piensos h3 {
     font-size: 1.5rem;
   }
@@ -699,12 +763,15 @@ hr {
   .citaText2 {
     font-size: medium;
   }
+
   .error {
     font-size: .6rem;
   }
-  .ok{
+
+  .ok {
     font-size: .6rem;
   }
+
 }
 
 @media only screen and (max-width: 1180px) {
@@ -763,9 +830,11 @@ hr {
     padding: 10px;
     float: left;
   }
+
 }
 
 @media only screen and (max-width: 1400px) {
+
   .redesContainer p {
     font-size: 0.9rem;
   }
@@ -883,4 +952,5 @@ hr {
     width: 100%;
     margin-left: 0%;
   }
+
 }
