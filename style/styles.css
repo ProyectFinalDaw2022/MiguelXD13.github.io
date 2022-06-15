@@ -537,6 +537,10 @@ hr {
   margin: 5%;
 }
 
+.txt-piensos{
+  font-size: larger;
+}
+
 .pi {
   padding: 2.75rem .1rem;
   display: flex;
@@ -764,6 +768,10 @@ hr {
 
   .piensos h3 {
     font-size: 1.5rem;
+  }
+
+  .txt-piensos{
+    font-size: small;
   }
 
   .planesText {
