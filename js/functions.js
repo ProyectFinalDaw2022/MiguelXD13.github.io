@@ -165,7 +165,6 @@ function enviarDatos(nombre,apellido,telefono,email,mensaje){
             document.getElementById("error").innerHTML = "HA HABIDO UN ERROR EN EL SERVIDOR"
             $("#charge").css('display', "none");
             $("#error").show(1000);
-            console.log(err);
         });
 }
 

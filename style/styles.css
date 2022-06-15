@@ -376,6 +376,11 @@ body {
   color: rgb(0, 119, 255);
   background: rgb(134, 190, 255);
 }
+.icSocImg{
+  width: 55px;
+  height: 55px;
+  margin-top: 22px;
+}
 
 .horario .socialText {
   color: rgb(0, 119, 255);
