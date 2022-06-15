@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+p{
+  text-align: justify;
+  text-justify:inherit;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+
 *::-moz-selection {
   background: rgba(255, 255, 255, 0.7);
   color: rgb(0, 119, 255);
@@ -26,6 +33,7 @@ body {
 
 .img-piensos {
   width: 50%;
+  margin-bottom: 10%;
 }
 
 .linkSocial {
@@ -108,7 +116,7 @@ body {
 
 .txt-inicio {
   background-color: rgba(0, 119, 255, 0.3);
-  color: rgba(0, 0, 0, 0.7);
+  color: white;
   margin: 40px;
   padding: 10px;
   font-weight: 600;
@@ -520,7 +528,8 @@ hr {
 }
 
 .imagePiensos{
-  width: 40%;
+  width: 30%;
+  margin: 5%;
 }
 
 .pi {
